@@ -1,20 +1,21 @@
-#include<iostream.h>
-#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
 
-void main()
-{
-int no;
-clrscr();
-cout<<"Enter any num: ";
-cin>>no;
-if(no%2==0)
-{
-cout<<"Even num";
+int main()
+{ int n;
+   
+    printf("Enter the number : ");
+    scanf("%d" , &n);
+ 
+ 
+   if (n%2==0)
+     { printf("The number is Even");}
+ 
+ 
+   else 
+     { printf("The number is Odd");}
+       
+       
+ retirn 0;
 }
-else
-{
-cout<<"Odd num";
-}
-getch();
-}
-
+     
